@@ -1,0 +1,212 @@
+$date
+	Sat Aug  6 22:57:15 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module multiplier_tb $end
+$var wire 10 ! out [9:0] $end
+$var wire 1 " finish $end
+$var wire 16 # bcd [15:0] $end
+$var reg 5 $ a_in [4:0] $end
+$var reg 5 % b_in [4:0] $end
+$var reg 1 & clk $end
+$var reg 1 ' reset $end
+$var reg 1 ( start $end
+$scope module uut $end
+$var wire 5 ) a_in [4:0] $end
+$var wire 5 * b_in [4:0] $end
+$var wire 16 + bcd [15:0] $end
+$var wire 1 & clk $end
+$var wire 1 " finish $end
+$var wire 10 , out [9:0] $end
+$var wire 1 ' reset $end
+$var wire 1 ( start $end
+$var reg 10 - a_in_reg [9:0] $end
+$var reg 10 . b_in_reg [9:0] $end
+$var reg 16 / bcd_reg [15:0] $end
+$var reg 9 0 bits [8:0] $end
+$var reg 1 1 finish_reg $end
+$var reg 10 2 out_reg [9:0] $end
+$var integer 32 3 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 3
+bx 2
+01
+bx 0
+b0 /
+bx .
+bx -
+bx ,
+b0 +
+b0 *
+b0 )
+0(
+1'
+0&
+b0 %
+b0 $
+b0 #
+0"
+bx !
+$end
+#50
+1&
+#100
+b0 .
+b0 -
+b0 !
+b0 ,
+b0 2
+0&
+b11110 %
+b11110 *
+b11010 $
+b11010 )
+0'
+#150
+b101 0
+b11110 .
+b11010 -
+1&
+#200
+0&
+#250
+1&
+#300
+0&
+1(
+#350
+b1111 .
+b110100 -
+b100 0
+1&
+#400
+0&
+#450
+b111 .
+b1101000 -
+b11 0
+b110100 !
+b110100 ,
+b110100 2
+1&
+#500
+0&
+#550
+b11 .
+b11010000 -
+b10 0
+b10011100 !
+b10011100 ,
+b10011100 2
+1&
+#600
+0&
+#650
+b1 .
+b110100000 -
+b1 0
+b101101100 !
+b101101100 ,
+b101101100 2
+1&
+#700
+0&
+#750
+b11110000000 #
+b11110000000 +
+b11110000000 /
+b1010 3
+1"
+11
+b0 .
+b1101000000 -
+b0 0
+b1100001100 !
+b1100001100 ,
+b1100001100 2
+1&
+#800
+0&
+0(
+b1101 %
+b1101 *
+b1101 $
+b1101 )
+#850
+b0 #
+b0 +
+b0 /
+b0 !
+b0 ,
+b0 2
+0"
+01
+b101 0
+b1101 .
+b1101 -
+1&
+#900
+0&
+#950
+1&
+#1000
+0&
+1(
+#1050
+b110 .
+b11010 -
+b100 0
+b1101 !
+b1101 ,
+b1101 2
+1&
+#1100
+0&
+#1150
+b11 .
+b110100 -
+b11 0
+1&
+#1200
+0&
+#1250
+b1 .
+b1101000 -
+b10 0
+b1000001 !
+b1000001 ,
+b1000001 2
+1&
+#1300
+0&
+#1350
+b0 .
+b11010000 -
+b1 0
+b10101001 !
+b10101001 ,
+b10101001 2
+1&
+#1400
+0&
+#1450
+b101101001 #
+b101101001 +
+b101101001 /
+b1010 3
+1"
+11
+b110100000 -
+b0 0
+1&
+#1500
+0&
